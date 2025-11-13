@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Namma Kudla - Milestone 1</title>
+  <link rel="stylesheet" href="kudla.css">
+  <style>nav a.active{color:var(--accent-2);text-decoration:underline}</style>
+</head>
+<body>
+  <div class="site">
+    <header class="site-header">
+      <div class="logo">Namma Kudla</div>
+      <nav>
+        <a href="#home" data-target="home">Home</a>
+        <a href="#blog" data-target="blog">Blog</a>
+        <a href="#destinations" data-target="destinations">Destinations</a>
+        <a href="#guides" data-target="guides">Guides</a>
+        <a href="#about" data-target="about">About</a>
+        <a href="#contact" data-target="contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HOME -->
+      <section id="home" data-section>
+        <div class="hero">
+          <div class="hero-left">
+            <h1>Welcome to Namma Kudla</h1>
+            <p>Discover Mangalore's culture, cuisine, and hidden gems shared by travellers and local guides.</p>
+            <a class="cta" href="#blog" data-target="blog">Explore Stories</a>
+          </div>
+          <div class="hero-right">
+            <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=ae6f5a" alt="Kudla"/>
+          </div>
+        </div>
+
+        <div class="section-title">
+          <h2>Featured Posts</h2>
+          <div class="small">Handpicked stories from our community</div>
+        </div>
+
+        <div class="grid">
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=5c582f" alt="beach">
+            <h3>Sunset at Panambur</h3>
+            <div class="meta">By Ramesh • 10 Nov 2025</div>
+            <p class="small">A relaxing evening with local snacks and kite-flying.</p>
+          </article>
+
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1508057198894-247b23fe5ade?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=5b6b7d" alt="temple">
+            <h3>Temple Trails</h3>
+            <div class="meta">By Meera • 08 Nov 2025</div>
+            <p class="small">Cultural insights and timing tips for visiting local temples.</p>
+          </article>
+
+          <article class="card">
+            <img src="https://www.bing.com/th/id/OIP.oLcxKsGqorZ7r2Sz9dv1bgHaE8?w=271&h=211&c=8&rs=1&qlt=90&o=6&cb=ucfimg1&dpr=1.3&pid=3.1&rm=2&ucfimg=1" alt="food">
+            <h3>Local Cuisine Guide</h3>
+            <div class="meta">By Anitha • 05 Nov 2025</div>
+            <p class="small">Must-try dishes and where to find them in Kudla.</p>
+          </article>
+        </div>
+
+        <div class="section-title">
+          <h2>Subscribe</h2>
+          <div class="small">Get weekly travel tips</div>
+        </div>
+        <form id="subscribeForm" style="margin-top:12px;display:flex;gap:8px">
+          <input type="email" name="email" placeholder="Your email" style="flex:1;padding:10px;border-radius:8px;border:1px solid #ddd">
+          <button class="cta" type="submit">Subscribe</button>
+        </form>
+      </section>
+
+      <!-- BLOG -->
+      <section id="blog" data-section class="hidden">
+        <div class="section-title"><h2>Blog</h2><div class="small">Latest articles</div></div>
+        <div class="grid" style="margin-top:12px">
+          <article class="card"><img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=1f2b6a"><h3>Monsoon Walks</h3><div class="meta">By Kavya • 01 Nov 2025</div><p class="small">Tips for safe monsoon travel in the region.</p></article>
+          <article class="card"><img src="https://images.unsplash.com/photo-1470770903676-69b98201ea1c?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=6ec7e"><h3>Hidden Cafes</h3><div class="meta">By Sana • 21 Oct 2025</div><p class="small">Cozy cafes loved by locals.</p></article>
+          <article class="card"><img src="https://images.unsplash.com/photo-1491557345352-5929e343eb89?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=6c9a3f"><h3>Festivals of Kudla</h3><div class="meta">By Local Guides • 18 Oct 2025</div><p class="small">Experience the colour and rhythm of local festivals.</p></article>
+        </div>
+      </section>
+
+      <!-- DESTINATIONS -->
+      <section id="destinations" data-section class="hidden">
+        <div class="section-title"><h2>Destinations</h2><div class="small">Plan your trip</div></div>
+        <div class="grid" style="margin-top:12px">
+          <article class="card"><img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=1b2a6f"><h3>Panambur Beach</h3><div class="meta">Beach • Family friendly</div><p class="small">Best times to visit & transport tips.</p></article>
+          <article class="card"><img src="https://images.unsplash.com/photo-1482192505345-5655af888cc4?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=5d2f2c"><h3>Sultan Battery</h3><div class="meta">Historic • Photography</div><p class="small">Short guide to the fort and viewpoint.</p></article>
+          <article class="card"><img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=d2f1a6"><h3>Local Markets</h3><div class="meta">Culture • Shopping</div><p class="small">Where to shop for local handicrafts.</p></article>
+        </div>
+      </section>
+
+      <!-- GUIDES -->
+      <section id="guides" data-section class="hidden">
+        <div class="section-title"><h2>Guides</h2><div class="small">Meet our local experts</div></div>
+        <div class="grid" style="margin-top:12px">
+          <article class="card"><img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=9a1f7c"><h3>Leena - Culture Guide</h3><div class="meta">Expert in temples & festivals</div><p class="small">Contact to get a personalised walking tour.</p></article>
+          <article class="card"><img src="https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=8c0d4a"><h3>Ravi - Food Guide</h3><div class="meta">Local cuisine specialist</div><p class="small">Food trails and cooking demo sessions.</p></article>
+          <article class="card"><img src="https://tse1.mm.bing.net/th/id/OIP.LzWqkwF745nsN9mQbEEQOAHaLH?cb=ucfimg2ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3"><h3>Ajay - Adventure</h3><div class="meta">Beaches & outdoors</div><p class="small">Guided beach sports & day trips.</p></article>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" data-section class="hidden">
+        <h2>About Namma Kudla</h2>
+        <p class="small">Namma Kudla is a community travel blog celebrating Mangalore and surrounding regions. We publish stories, guides, and local tips from travellers, bloggers, and verified guides.</p>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" data-section class="hidden">
+        <h2>Contact</h2>
+        <p class="small">For collaborations, guide registrations, or admin queries, email <strong>admin@nammakudla.example</strong></p>
+      </section>
+
+    </main>
+
+    <footer>
+      © 2025 Namma Kudla — Built for Milestone-1
+    </footer>
+  </div>
+
+  <script src="kudla.js"></script>
+</body>
+</html>
